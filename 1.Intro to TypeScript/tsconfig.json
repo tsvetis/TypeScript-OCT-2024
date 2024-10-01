@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "rootDir": "./src", // we read from
+    "outDir": "./dist", // we write to
+    "module": "CommonJS",
+    "sourceMap": true
+  }
+}
