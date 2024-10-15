@@ -1,0 +1,14 @@
+"use strict";
+// import { x123, Pokemon as Zzzz } from "./module-1";
+// console.log(x123);
+// console.log(Zzzz());
+Object.defineProperty(exports, "__esModule", { value: true });
+const person_1 = require("./person");
+const person_2 = require("./utils/person");
+const ivan = new person_1.default("Ivan", 44);
+const mira = new person_1.default("Mira", 11);
+const yoni = new person_1.default("Yoni", 2);
+const yogi = new person_1.default("Yogi", 77);
+const kiro = new person_1.default("Kiro", 40);
+const avgAge = (0, person_2.getAvgAge)([ivan, mira, yoni, yogi, kiro]);
+console.log("avg age of people is: " + avgAge);

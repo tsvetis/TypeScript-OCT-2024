@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
