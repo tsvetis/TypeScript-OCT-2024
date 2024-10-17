@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    /** Decorators Stage: 2 */
+    // "target": "es2016",
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true
+
+    /** Decorators Stage: 3 -> TypeScript 5 and above */
+    "target": "es2022",
+
+    // Normal configuration
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
